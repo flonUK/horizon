@@ -54,7 +54,7 @@ executeCommand([
   'swell storefronts push',
   '--id $SWELL_STOREFRONT_ID',
   '-t settings',
- '-s defaults',
+  '-s defaults',
   '-f ./config/defaults.json',
   '--secret-key $SWELL_SECRET_KEY',
   '--store $SWELL_STORE_ID',
