@@ -66,7 +66,7 @@ const PasswordRecoveryPage: NextPageWithLayout<PageProps> = ({
   const backToLoginText = i18n('account.password_recovery.back_to_login_text', {
     loginLink: `<a class="font-bold hover:underline" href='/${
       router.locale !== router.defaultLocale ? `${router.locale}/` : ''
-    }/account/login'>${text.backToLoginLink}</a>`,
+    }account/login'>${text.backToLoginLink}</a>`,
   });
   const responseCallback = useCallback(
     (res: Response) => {
